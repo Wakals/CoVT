@@ -46,6 +46,8 @@
 
 ## 🔥 News
 
+[2025-11-23] 🥃 Released the training data and code. Give it a shot!
+
 [2025-11-22] ⭐️ The evaluation and Gradio demo are available NOW!
 
 [2025-11-21] 🤗 Our finetuned weights are available. [Check it here!](https://huggingface.co/collections/Wakals/covt-chain-of-visual-thought)
@@ -157,9 +159,9 @@ A collection of CoVT models on Hugging Face with benchmark performance:
 - [x] Release our model weights on Hugging Face.
 - [x] Release the evaluation code.
 - [x] Release the Gradio demo code.
-- [ ] Release the dataset.
+- [x] Release the dataset.
+- [x] Release the training code.
 - [ ] Support huggingface demo.
-- [ ] Release the training code.
 - [ ] Support more VLMs as the base models.
 
 ## 📮 Contact
