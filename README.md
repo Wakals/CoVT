@@ -9,7 +9,7 @@
     ⭐️ CoVT enriches VLMs’ vision-centric reasoning capabilities. ⭐️
   </h4>
 
-  [![Arixv](https://img.shields.io/badge/arxiv-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://link_to_paper.html/)
+  [![Arixv](https://img.shields.io/badge/arxiv-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.19418)
   [![Hugging Face Collection](https://img.shields.io/badge/HuggingFace-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/collections/Wakals/covt-chain-of-visual-thought)
   [![Project Page](https://img.shields.io/badge/Project_Page-00CED1?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMCAyMHYtNmg0djZoNXYtOGgzTDEyIDMgMiAxMmgzdjh6Ii8+PC9zdmc+)](https://wakalsprojectpage.github.io/comt-website/)
 
