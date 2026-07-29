@@ -18,19 +18,20 @@
 
 <div align="center">
   <b>
-    <a href="https://wakals.github.io/" target="_blank">Yiming Qin</a><sup>1</sup>,
+    <a href="https://wakals.github.io/" target="_blank">Yiming Qin</a><sup>1,4</sup>,
     <a href="https://github.com/David-BominWei" target="_blank">Bomin Wei</a><sup>2</sup>,
      <a href="https://gejiaxin.org/" target="_blank">Jiaxin Ge</a><sup>1</sup>,
       <a href="https://tech-ai.panasonic.com/en/researcher_introduction/048/" target="_blank">Konstantinos Kallidromitis</a><sup>3</sup>,<br>
        <a href="https://stephanie-fu.github.io/" target="_blank">Stephanie Fu</a><sup>1</sup>,
     <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank">Trevor Darrell</a><sup>1</sup>,
-    <a href="https://people.eecs.berkeley.edu/~xdwang/" target="_blank">XuDong Wang</a><sup>1*</sup>
+    <a href="https://xudongfrankwang.github.io/" target="_blank">XuDong Wang</a><sup>1,4*</sup>
   </b><br>
   
   <span style="font-size: 1em; color: #555;">
     University of California, Berkeley<sup>1</sup><br>
     University of California, Los Angeles<sup>2</sup><br>
-    Panasonic AI Research<sup>3</sup>
+    Panasonic AI Research<sup>3</sup><br>
+    Duke University<sup>4</sup>
   </span>
 
   <p style="color: #555; font-size: 0.9em; margin-top: 8px; margin-bottom: 0;">
@@ -45,6 +46,7 @@
 </div>
 
 ## 🔥 News
+[2026-07-28] 🔥 CoVT was selected for an oral presentation at ECCV 2026! 
 
 [2026-02-18] 🏆 The evaluation code is supported in [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 
