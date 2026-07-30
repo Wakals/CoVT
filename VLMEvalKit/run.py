@@ -378,6 +378,11 @@ def main():
                             judge_kwargs['model'] = 'gpt-4-turbo'
                     elif listinstr(['VGRPBench'], dataset_name):
                         judge_kwargs['model'] = 'gpt-4o'
+                    elif listinstr(['PerceptionBench'], dataset_name):
+                        # API judge by default; the dataset falls back to a locally served
+                        # gpt-oss-120b when no API key is available, and `--judge gpt-oss-120b`
+                        # selects it explicitly.
+                        judge_kwargs['model'] = 'gpt-4o-mini'
                     elif listinstr(['MathVista', 'MathVerse', 'MathVision', 'DynaMath', 'VL-RewardBench', 'LogicVista', 'MOAT', 'OCR_Reasoning'], dataset_name):  # noqa: E501
                         judge_kwargs['model'] = 'gpt-4o-mini'
                     elif listinstr(['OlympiadBench'], dataset_name):

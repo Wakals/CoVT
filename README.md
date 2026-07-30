@@ -46,6 +46,7 @@
 </div>
 
 ## 🔥 News
+
 [2026-07-28] 🔥 CoVT was selected for an oral presentation at ECCV 2026! 
 
 [2026-02-18] 🏆 The evaluation code is supported in [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
@@ -159,6 +160,18 @@ A collection of CoVT models on Hugging Face with benchmark performance:
 
 > `+1B` denotes the parameters of the projection layer for decoding the visual thinking tokens. We don't nned these parameters during inference!
 
+## Eval Results
+
+[2026-07-30] 💫 PerceptionBench is supported. 
+
+| Baseline | Segment | Depth | DINO | Edge | PerceptionBench | CV-Bench | V\* |
+|-----|--------|--------|------|------|----------|----------|----------|
+|Qwen2.5-VL-7B-Instruct|   |   |   |   | 25.8 | 74.5 | 76.4 |
+|Qwen2.5-VL-7B-Instruct| ✔ |   |   |   | 26.3 | 77.9 | 79.1 |
+|Qwen2.5-VL-7B-Instruct|   | ✔ |   |   | **27.0** | 78.7 | 79.1 |
+|Qwen2.5-VL-7B-Instruct| ✔ | ✔ | ✔ |   | 26.6 | 80.0 | 78.0 |
+|Qwen2.5-VL-7B-Instruct| ✔ | ✔ | ✔ | ✔ | **27.0** | 79.8 | 78.5 |
+
 ## 🏖️ TODO
 
 - [x] Release our model weights on Hugging Face.
@@ -166,6 +179,7 @@ A collection of CoVT models on Hugging Face with benchmark performance:
 - [x] Release the Gradio demo code.
 - [x] Release the dataset.
 - [x] Release the training code.
+- [x] Support more benchmarks evaluation.
 - [ ] Support huggingface demo.
 - [ ] Support more VLMs as the base models.
 
